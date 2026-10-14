@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wardrobly — Privacy Policy</title>
+    <meta
+      name="description"
+      content="What Wardrobly collects, who processes it, and how to delete it."
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <a class="home" href="../../index.html">Cengizhan Hakan</a>
+        <nav>
+          <a href="../index.html">Wardrobly</a>
+          <a href="../terms/index.html">Terms</a>
+          <a href="../support/index.html">Support</a>
+        </nav>
+      </header>
+
+      <main>
+        <h1>Wardrobly Privacy Policy</h1>
+        <p class="meta">Effective 14 October 2026.</p>
+
+        <p>
+          Wardrobly is an iPhone app published by Cengizhan Hakan, Berlin,
+          Germany, who is responsible for the processing described here
+          (the controller). Questions about this policy, and any request
+          about your data, go to
+          <a href="mailto:admin@investbud.de">admin@investbud.de</a>.
+        </p>
+
+        <h2>What is collected</h2>
+
+        <h3>Account</h3>
+        <p>
+          Your email address, display name, avatar, bio, locale and timezone.
+          You sign in with Apple, with Google, or with an email address and a
+          password.
+        </p>
+
+        <h3>Photos</h3>
+        <p>
+          The clothing and avatar images you upload. EXIF and GPS metadata are
+          stripped on upload, so the location and the camera details a photo
+          carries are removed before it is stored.
+        </p>
+        <p>
+          For virtual try-on, a full-body photo of yourself and the outfit
+          images rendered from it. You can remove the try-on photo in the app
+          at any time.
+        </p>
+
+        <h3>Garment attributes</h3>
+        <p>
+          A clothing classification model reads each item photo and produces
+          attributes: category, colour family, style, season and occasion tags,
+          formality, and a confidence value. It reads garments only. There is no
+          face detection, body detection or pose detection anywhere in the app.
+        </p>
+
+        <h3>Text you write</h3>
+        <p>
+          Item titles, your profile bio, post captions, comments, feedback
+          messages, abuse reports and partner notes.
+        </p>
+
+        <h3>Social graph</h3>
+        <p>Who you follow, and what you like, save and block.</p>
+
+        <h3>Device identifiers</h3>
+        <p>
+          If you allow notifications, the push token of your device, with its
+          platform and language, so the app can tell you when a try-on is ready
+          or someone interacts with you. It is removed when you turn
+          notifications off, sign out, or the device stops accepting them.
+        </p>
+        <p>
+          A DeviceCheck token from Apple. It lets Wardrobly read and set two
+          flags Apple keeps for your device, recording whether it has already
+          received the starter credits and a referral reward, so deleting and
+          recreating an account does not grant them again. The token itself is
+          not stored.
+        </p>
+
+        <h3>Subscription status</h3>
+        <p>
+          Whether this account is entitled to the paid features, held by
+          RevenueCat. Apple handles the payment; Wardrobly never sees your card,
+          your Apple Account or your billing address.
+        </p>
+
+        <h3>Product analytics</h3>
+        <p>
+          A fixed set of named events, sent to PostHog's EU region. Autocapture
+          and session recording are off. No photo, no image link and nothing you
+          have written is included in an analytics event.
+        </p>
+        <p>
+          Analytics is off until you turn it on, during setup or in Settings.
+          While it is on, the app also sends crash reports to PostHog: the error
+          type and stack trace, the app version, and the device model and iOS
+          version, linked to your account ID. A crash report contains no photo
+          and nothing you have written.
+        </p>
+
+        <h2>What is not collected</h2>
+        <p>
+          No advertising identifier (IDFA) and no App Tracking Transparency
+          prompt, because nothing here is used for advertising. No location, no
+          contacts, no microphone access, no device fingerprinting. Your data is
+          never sold.
+        </p>
+
+        <h2>What other people see</h2>
+        <p>
+          Your display name, your avatar, your bio and anything you post to the
+          feed are visible to other users.
+        </p>
+        <p>
+          If you connect with a partner, that partner also sees your email
+          address.
+        </p>
+
+        <h2>Where it is stored</h2>
+        <p>
+          The servers are at Hetzner in Germany. Images are stored in a private
+          Cloudflare R2 bucket; the bucket is not public, and an image is served
+          only through a signed link that expires after one hour.
+        </p>
+
+        <h2>Who else processes it</h2>
+        <table>
+          <tr>
+            <th>Service</th>
+            <th>What it handles</th>
+          </tr>
+          <tr>
+            <td>Hetzner</td>
+            <td>Hosting, in Germany</td>
+          </tr>
+          <tr>
+            <td>Cloudflare R2</td>
+            <td>Image storage</td>
+          </tr>
+          <tr>
+            <td>Apple, Google</td>
+            <td>Sign-in</td>
+          </tr>
+          <tr>
+            <td>Apple</td>
+            <td>Push notification delivery, DeviceCheck</td>
+          </tr>
+          <tr>
+            <td>Expo</td>
+            <td>Push notification delivery</td>
+          </tr>
+          <tr>
+            <td>RevenueCat</td>
+            <td>Subscription status</td>
+          </tr>
+          <tr>
+            <td>PostHog (EU)</td>
+            <td>Product analytics and app crash reports (only if you opt in)</td>
+          </tr>
+          <tr>
+            <td>Sentry</td>
+            <td>
+              Backend error monitoring, configured not to send personal data
+            </td>
+          </tr>
+          <tr>
+            <td>OpenRouter</td>
+            <td>AI features</td>
+          </tr>
+          <tr>
+            <td>fal.ai</td>
+            <td>Virtual try-on, an AI image model</td>
+          </tr>
+        </table>
+
+        <h3>OpenRouter</h3>
+        <p>
+          The AI style coach sends garment metadata only — the attributes and
+          tags listed above. It never sends an image.
+        </p>
+        <p>
+          The paid smart retag feature is the one exception: it sends a
+          temporary link to a single garment photo to a vision model so the
+          model can re-read that item's attributes.
+        </p>
+
+        <h3>fal.ai</h3>
+        <p>
+          When you start a virtual try-on, fal.ai receives temporary links to
+          your try-on photo and to the images of the garments in the outfit,
+          and returns the rendered image. The links expire after one hour.
+          Nothing else about you or your account is sent.
+        </p>
+
+        <h2>Deleting your data</h2>
+        <p>
+          You can delete your account in the app, from Settings. Deletion is
+          permanent and removes the account along with every image stored for
+          it. You can also request deletion by emailing
+          <a href="mailto:admin@investbud.de">admin@investbud.de</a>.
+        </p>
+
+        <h2>Children</h2>
+        <p>
+          Wardrobly is not directed at children under 13 and does not knowingly
+          collect their data.
+        </p>
+
+        <h2>Changes</h2>
+        <p>
+          If this policy changes, the updated version is published on this page
+          with a new effective date.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          <a href="mailto:admin@investbud.de">admin@investbud.de</a>.
+        </p>
+      </main>
+
+      <footer class="site-footer">
+        <a href="../../index.html">Cengizhan Hakan</a>
+        <a href="../index.html">Wardrobly</a>
+        <a href="../terms/index.html">Terms</a>
+        <a href="../support/index.html">Support</a>
+      </footer>
+    </div>
+  </body>
+</html>
